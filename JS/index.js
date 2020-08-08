@@ -6,6 +6,6 @@ var uberX = new UberX("AW456", new Account("Andrea Ferran", "ANDA765"), "Chevrol
 uberX.passenger = 4
 uberX.printDataCar()
 
-var uberPool = UberPool("AW123", new Account("Carlos Sanchez", "TYU234"), "Volkswagen", "Jetta")
+var uberPool = new UberPool("AW123", new Account("Carlos Sanchez", "TYU234"), "Volkswagen", "Jetta")
 uberPool.passenger = 2
 uberPool.printDataCar()
